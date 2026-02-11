@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce-server",
+  "version": "1.0.0",
+  "description": "E-commerce API backend",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node scripts/seed.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.8.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.6.1"
+  }
+}
