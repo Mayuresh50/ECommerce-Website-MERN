@@ -11,4 +11,5 @@ const api = axios.create({
   headers: { "Content-Type": "application/json" },
 });
 
-export const getProducts = () => api.get("/products").then((res) => res.data);
+export const getProducts = () =>
+  api.get("/api/products").then((res) => res.data);
